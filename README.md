@@ -145,8 +145,9 @@ A web application concept for organizing scrap collection and helping users sche
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Ananthu952&show_icons=true&theme=dark" height="165" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ananthu952&layout=compact&theme=dark" height="165" alt="Top Languages" />
+<img src="https://github-stats-extended.vercel.app/api?username=Ananthu952&show_icons=true&theme=dark" height="165" alt="GitHub Stats" />
+
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Ananthu952&layout=compact&theme=dark" height="165" alt="Top Languages" />
 
 </div>
 
