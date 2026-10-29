@@ -172,8 +172,8 @@ A web application concept for organizing scrap collection and helping users sche
 I'm interested in **junior Python Developer, Backend Developer, and Full-Stack Developer** opportunities.
 
 - 💻 GitHub: [@Ananthu952](https://github.com/Ananthu952)
-- 💼 LinkedIn: *Add your LinkedIn profile URL*
-- ✉️ Email: *Add your professional email address*
+- 💼 LinkedIn: [ananthu-s-in](https://linkedin.com/in/ananthu-s-in)
+- ✉️ Email: [ananthus952@gmail.com](mailto:ananthus952@gmail.com)
 - 🌐 Portfolio: *Add your portfolio URL when available*
 
 <div align="center">
