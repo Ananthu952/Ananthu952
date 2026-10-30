@@ -176,22 +176,11 @@ A web application for scrap collection, pickup scheduling, price listing, wallet
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Ananthu952&show_icons=true&hide_border=true&bg_color=090A0F&title_color=00E5CC&icon_color=00BFA6&text_color=FFFFFF&ring_color=00E5CC" width="49%" alt="GitHub Stats"/>
+<img src="./profile/stats.svg" width="49%" alt="GitHub Stats"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ananthu952&layout=compact&hide_border=true&bg_color=090A0F&title_color=00E5CC&text_color=FFFFFF" width="49%" alt="Most Used Languages"/>
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=Ananthu952&theme=dark&hide_border=true&background=090A0F&ring=00E5CC&fire=00BFA6&currStreakLabel=00E5CC" width="75%" alt="GitHub Streak"/>
-
-<br/><br/>
-
-<a href="https://github.com/Ananthu952">
-<img src="https://img.shields.io/badge/EXPLORE_MY_REPOSITORIES-00BFA6?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+<img src="./profile/top-langs.svg" width="49%" alt="Most Used Languages"/>
 
 </div>
-
 ---
 
 ## ◈ 05 — Contribution Activity
