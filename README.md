@@ -172,6 +172,9 @@ A web application for scrap collection, pickup scheduling, price listing, wallet
 
 ---
 
+
+---
+
 ## ◈ 04 — GitHub Statistics
 
 <div align="center">
@@ -184,20 +187,28 @@ A web application for scrap collection, pickup scheduling, price listing, wallet
 
 ---
 
-## ◈ 05 — Contribution Activity
+## ◈ 05 — PUZZLE BOBBLE CONTRIBUTION GAME
 
 <div align="center">
 
-<img src="./dist/github-snake.svg" width="100%" alt="Ananthu's GitHub Contribution Snake"/>
+<p>🫧 Every contribution adds another bubble to the game!</p>
 
-<br/>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Ananthu952/Ananthu952/output/puzzle-bobble-contribution-graph-dark.svg">
 
-<img src="https://img.shields.io/badge/CONTRIBUTIONS-KEEP%20BUILDING-00BFA6?style=for-the-badge&logo=github&logoColor=white"/>
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Ananthu952/Ananthu952/output/puzzle-bobble-contribution-graph.svg">
+
+  <img
+    src="https://raw.githubusercontent.com/Ananthu952/Ananthu952/output/puzzle-bobble-contribution-graph.svg"
+    width="100%"
+    alt="Puzzle Bobble GitHub Contribution Game">
+</picture>
 
 </div>
-
-
----
 
 ## ◈ 06 — Beyond The Code
 
