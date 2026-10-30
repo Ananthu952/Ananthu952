@@ -22,61 +22,49 @@
 
 ## ◈ 01 — About Me
 
-<img align="right" width="290" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif"/>
+<div align="center">
 
-```python
-class Ananthu:
+<table border="0">
+<tr>
+<td width="38%" align="center" valign="middle">
 
-    def __init__(self):
-        self.name = "Ananthu S"
-        self.role = "Full Stack Developer"
-        self.education = "MCA Graduate"
-        self.location = "Kerala, India"
+<img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="280" alt="Developer coding animation"/>
 
-        self.languages = [
-            "Python",
-            "JavaScript",
-            "C"
-        ]
+</td>
+<td width="62%" valign="middle">
 
-        self.backend = [
-            "Flask",
-            "FastAPI",
-            "Django"
-        ]
+### 👋 Hey, I'm Ananthu!
 
-        self.frontend = [
-            "React",
-            "HTML",
-            "CSS",
-            "Bootstrap"
-        ]
+**Full Stack Developer | MCA Graduate**
 
-        self.database = [
-            "MySQL",
-            "SQLite"
-        ]
+I'm a passionate developer from Kerala, India, interested in building modern, scalable and user-friendly web applications.
 
-    def current_focus(self):
-        return "Building real-world applications"
+I enjoy turning ideas into practical solutions, exploring new technologies and continuously improving my development skills.
 
-    def motto(self):
-        return "Learn. Build. Improve. Repeat."
+<br/>
 
-me = Ananthu()
-```
+**⚡ What I Do**
 
-<br clear="right"/>
+- 💻 Develop full-stack web applications.
+- ⚙️ Build backend services and REST APIs.
+- 🎨 Create responsive and intuitive user interfaces.
+- 🗄️ Work with databases and application architecture.
 
-- 🎓 MCA Graduate passionate about software development.
-- 💻 Interested in full-stack and backend engineering.
-- 🚀 Building practical applications and solving real problems.
-- 🌱 Continuously exploring new technologies and development tools.
-- 🤝 Open to collaboration, opportunities and learning.
+**🎯 Current Focus**
 
----
+- Strengthening my Python and full-stack development skills.
+- Building real-world projects.
+- Exploring modern development technologies.
 
-## ◈ 02 — Technology Universe
+**💡 My Philosophy**
+
+*Learn. Build. Improve. Repeat.*
+
+</td>
+</tr>
+</table>
+
+</div>## ◈ 02 — Technology Universe
 
 <div align="center">
 
