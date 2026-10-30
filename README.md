@@ -35,7 +35,7 @@
 
 <h2>👋 Hey, I'm Ananthu!</h2>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&pause=1800&color=00E5CC&width=400&lines=Full+Stack+Developer;Python+Developer;MCA+Graduate;Building+Ideas+Into+Applications" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&pause=1800&color=00E5CC&width=400&lines=Full+Stack+Developer;Python+Developer;MCA+Graduate;Building+Ideas+Into+Applications"/>
 
 <br/>
 
@@ -68,25 +68,27 @@ Building real-world projects and strengthening my Python and full-stack developm
 
 </div>
 
+---
+
 ## ◈ 02 — Technology Universe
 
 <div align="center">
 
 ### Programming Languages
 
-<img src="https://skillicons.dev/icons?i=python,js,c,html,css&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,js,c,html,css&theme=dark"/>
 
 ### Frameworks & Libraries
 
-<img src="https://skillicons.dev/icons?i=flask,django,fastapi,react,bootstrap&theme=dark" />
+<img src="https://skillicons.dev/icons?i=flask,django,fastapi,react,bootstrap&theme=dark"/>
 
 ### Databases & Development Tools
 
-<img src="https://skillicons.dev/icons?i=mysql,sqlite,git,github,vscode,postman,docker&theme=dark" />
+<img src="https://skillicons.dev/icons?i=mysql,sqlite,git,github,vscode,postman,docker&theme=dark"/>
 
 ### Currently Exploring
 
-<img src="https://skillicons.dev/icons?i=linux,githubactions,tailwind&theme=dark" />
+<img src="https://skillicons.dev/icons?i=linux,githubactions,tailwind&theme=dark"/>
 
 </div>
 
@@ -173,31 +175,30 @@ A web application for scrap collection, pickup scheduling, price listing, wallet
 ## ◈ 04 — GitHub Statistics
 
 <div align="center">
-<img src="https://ghstats.dev/api/card?username=Ananthu952&theme=midnight&bg=090A0F&text=FFFFFF&title_color=00E5CC&icon_color=00BFA6&border_color=00BFA6&show_icons=true" width="85%" alt="Ananthu GitHub Statistics"/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=Ananthu952&show_icons=true&hide_border=true&bg_color=090A0F&title_color=00E5CC&icon_color=00BFA6&text_color=FFFFFF&ring_color=00E5CC" width="49%" alt="GitHub Stats"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ananthu952&layout=compact&hide_border=true&bg_color=090A0F&title_color=00E5CC&text_color=FFFFFF" width="49%" alt="Most Used Languages"/>
 
 <br/><br/>
+
+<img src="https://streak-stats.demolab.com?user=Ananthu952&theme=dark&hide_border=true&background=090A0F&ring=00E5CC&fire=00BFA6&currStreakLabel=00E5CC" width="75%" alt="GitHub Streak"/>
+
+<br/><br/>
+
 <a href="https://github.com/Ananthu952">
-<img src="https://img.shields.io/badge/Explore%20My%20Repositories-00BFA6?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/EXPLORE_MY_REPOSITORIES-00BFA6?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-
-</div>
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Ananthu952&show_icons=true&hide_border=true&bg_color=090A0F&title_color=00E5CC&icon_color=00BFA6&text_color=FFFFFF&ring_color=00E5CC"/>
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ananthu952&layout=compact&hide_border=true&bg_color=090A0F&title_color=00E5CC&text_color=FFFFFF"/>
-
-<br/><br/>
-
-<img width="75%" src="https://streak-stats.demolab.com?user=Ananthu952&theme=dark&hide_border=true&background=090A0F&ring=00E5CC&fire=00BFA6&currStreakLabel=00E5CC"/>
 
 </div>
 
 ---
 
-## ◈ 05 — Contribution Matrix
+## ◈ 05 — Contribution Activity
 
 <div align="center">
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ananthu952&bg_color=090A0F&color=00E5CC&line=00BFA6&point=FFFFFF&area=true&hide_border=true&custom_title=MY%20CODING%20JOURNEY"/>
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ananthu952&bg_color=090A0F&color=00E5CC&line=00BFA6&point=FFFFFF&area=true&hide_border=true&custom_title=MY%20CODING%20JOURNEY" alt="GitHub Contribution Activity"/>
 
 </div>
 
