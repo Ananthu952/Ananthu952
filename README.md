@@ -181,15 +181,21 @@ A web application for scrap collection, pickup scheduling, price listing, wallet
 <img src="./profile/top-langs.svg" width="49%" alt="Most Used Languages"/>
 
 </div>
+
 ---
 
 ## ◈ 05 — Contribution Activity
 
 <div align="center">
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ananthu952&bg_color=090A0F&color=00E5CC&line=00BFA6&point=FFFFFF&area=true&hide_border=true&custom_title=MY%20CODING%20JOURNEY" alt="GitHub Contribution Activity"/>
+<img src="./dist/github-snake.svg" width="100%" alt="Ananthu's GitHub Contribution Snake"/>
+
+<br/>
+
+<img src="https://img.shields.io/badge/CONTRIBUTIONS-KEEP%20BUILDING-00BFA6?style=for-the-badge&logo=github&logoColor=white"/>
 
 </div>
+
 
 ---
 
