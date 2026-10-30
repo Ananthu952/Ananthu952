@@ -33,30 +33,30 @@
 </td>
 <td width="62%" valign="middle">
 
-### 👋 Hey, I'm Ananthu!
+<h2>👋 Hey, I'm Ananthu!</h2>
 
-**Full Stack Developer | MCA Graduate**
-
-I'm a passionate developer from Kerala, India, interested in building modern, scalable and user-friendly web applications.
-
-I enjoy turning ideas into practical solutions, exploring new technologies and continuously improving my development skills.
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&pause=1800&color=00E5CC&width=400&lines=Full+Stack+Developer;Python+Developer;MCA+Graduate;Building+Ideas+Into+Applications" />
 
 <br/>
 
-**⚡ What I Do**
+I'm a passionate developer from **Kerala, India**, interested in building modern, scalable and user-friendly web applications.
+
+I enjoy transforming ideas into practical solutions, exploring new technologies and continuously improving my development skills.
+
+<br/>
+
+**⚡ WHAT I DO**
 
 - 💻 Develop full-stack web applications.
 - ⚙️ Build backend services and REST APIs.
-- 🎨 Create responsive and intuitive user interfaces.
+- 🎨 Create responsive user interfaces.
 - 🗄️ Work with databases and application architecture.
 
-**🎯 Current Focus**
+**🎯 CURRENT FOCUS**
 
-- Strengthening my Python and full-stack development skills.
-- Building real-world projects.
-- Exploring modern development technologies.
+Building real-world projects and strengthening my Python and full-stack development skills.
 
-**💡 My Philosophy**
+**💡 MY PHILOSOPHY**
 
 *Learn. Build. Improve. Repeat.*
 
@@ -64,7 +64,11 @@ I enjoy turning ideas into practical solutions, exploring new technologies and c
 </tr>
 </table>
 
-</div>## ◈ 02 — Technology Universe
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00E5CC,50:14213D,100:00E5CC&height=2&section=header&animation=twinkling" width="85%"/>
+
+</div>
+
+## ◈ 02 — Technology Universe
 
 <div align="center">
 
