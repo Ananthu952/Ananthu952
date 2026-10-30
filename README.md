@@ -187,29 +187,24 @@ A web application for scrap collection, pickup scheduling, price listing, wallet
 
 ---
 
-## ◈ 05 — PUZZLE BOBBLE CONTRIBUTION GAME
+## ◈ 05 — Contribution Activity
 
 <div align="center">
 
-<p>🫧 Every contribution adds another bubble to the game!</p>
-
 <picture>
-  <source
-    media="(prefers-color-scheme: dark)"
+  <source media="(prefers-color-scheme: dark)"
     srcset="https://raw.githubusercontent.com/Ananthu952/Ananthu952/output/puzzle-bobble-contribution-graph-dark.svg">
 
-  <source
-    media="(prefers-color-scheme: light)"
+  <source media="(prefers-color-scheme: light)"
     srcset="https://raw.githubusercontent.com/Ananthu952/Ananthu952/output/puzzle-bobble-contribution-graph.svg">
 
   <img
     src="https://raw.githubusercontent.com/Ananthu952/Ananthu952/output/puzzle-bobble-contribution-graph.svg"
     width="100%"
-    alt="Puzzle Bobble GitHub Contribution Game">
+    alt="Puzzle Bobble Contribution Game">
 </picture>
 
 </div>
-
 ## ◈ 06 — Beyond The Code
 
 <div align="center">
