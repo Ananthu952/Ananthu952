@@ -97,6 +97,9 @@ Building real-world projects and strengthening my Python and full-stack developm
 
 ## ◈ 03 — Featured Projects
 
+
+## ◈ 03 — Featured Projects
+
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&pause=1000&color=00E5CC&center=true&vCenter=true&width=450&lines=Things+I've+Built+%F0%9F%9A%80;Turning+Ideas+Into+Reality"/>
@@ -115,8 +118,12 @@ A full-stack platform connecting customers with service providers for home maint
 
 `Python` `Flask` `React` `SQLite`
 
-<a href="https://github.com/Ananthu952/WorkStation">
-<img src="https://img.shields.io/badge/EXPLORE_PROJECT-00BFA6?style=for-the-badge&logo=github&logoColor=white"/>
+<a href="YOUR_WORKSTATION_LIVE_URL" target="_blank">
+<img src="https://img.shields.io/badge/VISIT_LIVE_PROJECT-00E5CC?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+</a>
+
+<a href="https://github.com/Ananthu952/WorkStation" target="_blank">
+<img src="https://img.shields.io/badge/EXPLORE_SOURCE_CODE-00BFA6?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </td>
@@ -126,12 +133,16 @@ A full-stack platform connecting customers with service providers for home maint
 
 **Intelligent PDF Question Answering**
 
-A RAG-based application that allows users to upload PDF documents, ask natural-language questions and receive document-grounded answers with source references.
+A RAG-based application that answers natural-language questions from uploaded PDF documents with source references.
 
 `Python` `FastAPI` `FAISS` `LangChain`
 
-<a href="https://github.com/Ananthu952">
-<img src="https://img.shields.io/badge/EXPLORE_PROJECT-00BFA6?style=for-the-badge&logo=github&logoColor=white"/>
+<a href="YOUR_RAG_LIVE_URL" target="_blank">
+<img src="https://img.shields.io/badge/VISIT_LIVE_PROJECT-00E5CC?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+</a>
+
+<a href="YOUR_RAG_GITHUB_URL" target="_blank">
+<img src="https://img.shields.io/badge/EXPLORE_SOURCE_CODE-00BFA6?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </td>
@@ -144,12 +155,16 @@ A RAG-based application that allows users to upload PDF documents, ask natural-l
 
 **Explainable AI for Lung Disease Detection**
 
-An AI-powered clinical decision-support platform that analyzes chest X-ray images, predicts possible lung diseases with confidence scores and generates Grad-CAM heatmaps to visually explain model predictions.
+An AI-powered application for chest X-ray analysis, disease prediction and explainable visualization using Grad-CAM.
 
 `Python` `FastAPI` `TensorFlow` `CNN` `Grad-CAM`
 
-<a href="YOUR_LUNGXAI_REPOSITORY_URL">
-<img src="https://img.shields.io/badge/EXPLORE_PROJECT-00BFA6?style=for-the-badge&logo=github&logoColor=white"/>
+<a href="YOUR_LUNGXAI_LIVE_URL" target="_blank">
+<img src="https://img.shields.io/badge/VISIT_LIVE_PROJECT-00E5CC?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+</a>
+
+<a href="https://github.com/Ananthu952/MCA-S4--LungXai" target="_blank">
+<img src="https://img.shields.io/badge/EXPLORE_SOURCE_CODE-00BFA6?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </td>
@@ -163,27 +178,17 @@ A web application for scrap collection, pickup scheduling, price listing, wallet
 
 `PHP` `MySQL` `JavaScript` `Bootstrap`
 
-<a href="https://github.com/Ananthu952">
-<img src="https://img.shields.io/badge/EXPLORE_PROJECT-00BFA6?style=for-the-badge&logo=github&logoColor=white"/>
+<a href="YOUR_ECOCYCLE_LIVE_URL" target="_blank">
+<img src="https://img.shields.io/badge/VISIT_LIVE_PROJECT-00E5CC?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+</a>
+
+<a href="https://github.com/Ananthu952/MCA-S3--MINI_PROJECT" target="_blank">
+<img src="https://img.shields.io/badge/EXPLORE_SOURCE_CODE-00BFA6?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </td>
 </tr>
 </table>
-
----
-
-## ◈ 04 — GitHub Statistics
-
-<div align="center">
-
-<img src="./profile/stats.svg" width="49%" alt="GitHub Stats"/>
-
-<img src="./profile/top-langs.svg" width="49%" alt="Most Used Languages"/>
-
-</div>
-
----
 
 ## ◈ 05 — Contribution Activity
 
