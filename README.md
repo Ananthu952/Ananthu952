@@ -1,139 +1,176 @@
-<div align="center">
+ <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,65:0F766E,100:34D399&height=180&section=header" width="100%" alt="Emerald wave header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:090A0F,35:14213D,70:00BFA6,100:00E5FF&height=230&section=header&text=ANANTHU%20S&fontSize=72&fontColor=FFFFFF&fontAlignY=38&desc=FULL%20STACK%20DEVELOPER%20%7C%20PYTHON%20DEVELOPER&descSize=16&descAlignY=58&animation=twinkling"/>
 
-# Hi, I'm Ananthu 👋
+<a href="https://github.com/Ananthu952">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2500&pause=900&color=00E5CC&center=true&vCenter=true&repeat=true&width=650&height=50&lines=Hey+there!+I'm+Ananthu+%F0%9F%91%8B;Building+ideas+into+real+applications;Python+%7C+Flask+%7C+FastAPI+%7C+React;Turning+coffee+into+code+%E2%98%95;Always+learning.+Always+building."/>
+</a>
 
-### Python Full-Stack Developer | Building practical web applications
+<br/>
 
-I enjoy building useful applications with **Python, Flask, FastAPI, databases, and modern web technologies** — from service marketplaces to document-search tools.
+<a href="https://github.com/Ananthu952"><img src="https://img.shields.io/badge/GitHub-Ananthu952-111827?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://linkedin.com/in/ananthu-s-in"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:ananthus952@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-00BFA6?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
-[![GitHub](https://img.shields.io/badge/GitHub-Ananthu952-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ananthu952)
-[![Repositories](https://img.shields.io/badge/Explore-My%20Projects-0F766E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ananthu952?tab=repositories)
+<br/><br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Ananthu952&style=flat-square&color=0F766E&label=Profile+Views)
-![GitHub followers](https://img.shields.io/github/followers/Ananthu952?style=flat-square&color=34D399&label=Followers)
-
-</div>
-
----
-
-## 👨‍💻 About Me
-
-- 🎓 MCA graduate interested in software development and building real-world projects.
-- 🐍 Focused on **Python backend and full-stack development**.
-- 🧩 Enjoy working with REST APIs, authentication, databases, and responsive interfaces.
-- 🛠️ Improving my skills by building and deploying portfolio projects.
-- 🤝 Open to entry-level developer opportunities, internships, and collaborations.
-
-> My goal is to build software that solves practical problems, with clean structure and a good user experience.
-
----
-
-## 🧰 Tech Stack
-
-<div align="center">
-
-**Backend**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20APIs-6B7280?style=for-the-badge)
-
-**Frontend**
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-
-**Databases & Tools**
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=sqlite&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+<img src="https://komarev.com/ghpvc/?username=Ananthu952&label=PROFILE+VIEWS&color=00BFA6&style=for-the-badge"/>
 
 </div>
 
 ---
 
-## 🚀 Featured Projects
+## ◈ 01 — About Me
+
+<img align="right" width="290" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif"/>
+
+```python
+class Ananthu:
+
+    def __init__(self):
+        self.name = "Ananthu S"
+        self.role = "Full Stack Developer"
+        self.education = "MCA Graduate"
+        self.location = "Kerala, India"
+
+        self.languages = [
+            "Python",
+            "JavaScript",
+            "C"
+        ]
+
+        self.backend = [
+            "Flask",
+            "FastAPI",
+            "Django"
+        ]
+
+        self.frontend = [
+            "React",
+            "HTML",
+            "CSS",
+            "Bootstrap"
+        ]
+
+        self.database = [
+            "MySQL",
+            "SQLite"
+        ]
+
+    def current_focus(self):
+        return "Building real-world applications"
+
+    def motto(self):
+        return "Learn. Build. Improve. Repeat."
+
+me = Ananthu()
+```
+
+<br clear="right"/>
+
+- 🎓 MCA Graduate passionate about software development.
+- 💻 Interested in full-stack and backend engineering.
+- 🚀 Building practical applications and solving real problems.
+- 🌱 Continuously exploring new technologies and development tools.
+- 🤝 Open to collaboration, opportunities and learning.
+
+---
+
+## ◈ 02 — Technology Universe
+
+<div align="center">
+
+### Programming Languages
+
+<img src="https://skillicons.dev/icons?i=python,js,c,html,css&theme=dark" />
+
+### Frameworks & Libraries
+
+<img src="https://skillicons.dev/icons?i=flask,django,fastapi,react,bootstrap&theme=dark" />
+
+### Databases & Development Tools
+
+<img src="https://skillicons.dev/icons?i=mysql,sqlite,git,github,vscode,postman,docker&theme=dark" />
+
+### Currently Exploring
+
+<img src="https://skillicons.dev/icons?i=linux,githubactions,tailwind&theme=dark" />
+
+</div>
+
+---
+
+## ◈ 03 — Featured Projects
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&pause=1000&color=00E5CC&center=true&vCenter=true&width=450&lines=Things+I've+Built+%F0%9F%9A%80;Turning+Ideas+Into+Reality"/>
+
+</div>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🧰 WorkStation — Refurbished
+### 🏠 WorkStation
 
-A handyman service platform designed to connect customers with service providers and help people discover and request home services.
+**Handyman Service Marketplace**
 
-**Highlights**
-- Role-based access for customers, providers, and admins
-- Service categories and provider discovery
-- Flask backend with REST API routes
-- SQLite database and deployment workflow
+A full-stack platform connecting customers with service providers for home maintenance and repair services.
 
-**Stack:** Python · Flask · SQLite · React
+`Python` `Flask` `React` `SQLite`
 
-[**View repository →**](https://github.com/Ananthu952/WorkStation)
+<a href="https://github.com/Ananthu952/WorkStation">
+<img src="https://img.shields.io/badge/EXPLORE_PROJECT-00BFA6?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
 </td>
 <td width="50%" valign="top">
 
 ### 📄 AI Document Search
 
-A document question-answering application that lets users upload PDFs and ask questions in natural language, with answers grounded in document content.
+**Intelligent PDF Question Answering**
 
-**Highlights**
-- PDF text extraction and chunking
-- Semantic retrieval with embeddings and FAISS
-- Local LLM workflow using Ollama
-- Source-oriented answers designed to reference document pages
+A document-based search application that answers natural-language questions using uploaded PDF documents and source references.
 
-**Stack:** Python · FastAPI · LangChain · FAISS · Ollama
+`Python` `FastAPI` `FAISS` `LangChain`
 
-[**Explore my repositories →**](https://github.com/Ananthu952?tab=repositories)
+<a href="https://github.com/Ananthu952">
+<img src="https://img.shields.io/badge/EXPLORE_PROJECT-00BFA6?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
 </td>
 </tr>
+
 <tr>
 <td width="50%" valign="top">
 
-### 🩹 Self-Healing CI/CD Pipeline Agent
+### ⚙️ Self-Healing CI/CD Agent
 
-A development project exploring automated detection and diagnosis of application failures, with a workflow for validating fixes and rebuilding through CI/CD.
+**Automated Failure Detection**
 
-**Highlights**
-- FastAPI health and diagnostic endpoints
-- Logging and runtime-error simulation
-- ML-based error classification experiments
-- GitHub Actions and deployment workflow exploration
+A system designed to detect runtime failures, analyze application logs and assist in automated recovery and deployment.
 
-**Stack:** Python · FastAPI · scikit-learn · GitHub Actions
+`Python` `FastAPI` `Scikit-learn` `GitHub Actions`
 
-[**Explore my repositories →**](https://github.com/Ananthu952?tab=repositories)
+<a href="https://github.com/Ananthu952">
+<img src="https://img.shields.io/badge/EXPLORE_PROJECT-00BFA6?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
 </td>
 <td width="50%" valign="top">
 
-### ♻️ EcoCycle — Smart Scrap Management
+### ♻️ EcoCycle
 
-A web application concept for organizing scrap collection and helping users schedule pickups.
+**Smart Scrap Management System**
 
-**Highlights**
-- User registration and pickup scheduling
-- Scrap price listing and feedback
-- Wallet and notification features
-- Database-backed application workflows
+A web application for scrap collection, pickup scheduling, price listing, wallet management and feedback.
 
-**Stack:** PHP · MySQL · JavaScript · Bootstrap
+`PHP` `MySQL` `JavaScript` `Bootstrap`
 
-[**Explore my repositories →**](https://github.com/Ananthu952?tab=repositories)
+<a href="https://github.com/Ananthu952">
+<img src="https://img.shields.io/badge/EXPLORE_PROJECT-00BFA6?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
 </td>
 </tr>
@@ -141,43 +178,71 @@ A web application concept for organizing scrap collection and helping users sche
 
 ---
 
-## 📊 GitHub Overview
+## ◈ 04 — GitHub Statistics
 
 <div align="center">
 
-<img src="https://github-stats-extended.vercel.app/api?username=Ananthu952&show_icons=true&theme=dark" height="165" alt="GitHub Stats" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Ananthu952&show_icons=true&hide_border=true&bg_color=090A0F&title_color=00E5CC&icon_color=00BFA6&text_color=FFFFFF&ring_color=00E5CC"/>
 
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Ananthu952&layout=compact&theme=dark" height="165" alt="Top Languages" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ananthu952&layout=compact&hide_border=true&bg_color=090A0F&title_color=00E5CC&text_color=FFFFFF"/>
+
+<br/><br/>
+
+<img width="75%" src="https://streak-stats.demolab.com?user=Ananthu952&theme=dark&hide_border=true&background=090A0F&ring=00E5CC&fire=00BFA6&currStreakLabel=00E5CC"/>
 
 </div>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Ananthu952&theme=dark&hide_border=true" alt="GitHub contribution streak" />
-</p>
-
 ---
 
-## 🌱 Currently Improving
-
-- Python backend development and API design
-- Authentication, authorization, and database modelling
-- Building responsive interfaces and connecting them to APIs
-- Testing, Git workflows, and deployment fundamentals
-- Writing clearer documentation and presenting projects professionally
-
----
-
-## 🤝 Let's Connect
-
-I'm interested in **junior Python Developer, Backend Developer, and Full-Stack Developer** opportunities.
-
-- 💻 GitHub: [@Ananthu952](https://github.com/Ananthu952)
-- 💼 LinkedIn: [ananthu-s-in](https://linkedin.com/in/ananthu-s-in)
-- ✉️ Email: [ananthus952@gmail.com](mailto:ananthus952@gmail.com)
-- 🌐 Portfolio: *Add your portfolio URL when available*
+## ◈ 05 — Contribution Matrix
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:34D399,55:0F766E,100:0D1117&height=110&section=footer" width="100%" alt="Emerald wave footer"/>
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ananthu952&bg_color=090A0F&color=00E5CC&line=00BFA6&point=FFFFFF&area=true&hide_border=true&custom_title=MY%20CODING%20JOURNEY"/>
+
+</div>
+
+---
+
+## ◈ 06 — Beyond The Code
+
+<div align="center">
+
+| 🚀 Focus | 🎯 Goal |
+|:---|:---|
+| Full Stack Development | Build production-ready applications |
+| Backend Engineering | Design reliable APIs and services |
+| Problem Solving | Improve programming fundamentals |
+| Open Source | Learn and contribute to developer communities |
+
+</div>
+
+---
+
+## ◈ 07 — Let's Connect
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&pause=1000&color=00E5CC&center=true&vCenter=true&width=500&lines=Have+an+interesting+idea%3F;Let's+build+something+together!"/>
+
+<br/><br/>
+
+<a href="https://github.com/Ananthu952">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+<a href="https://linkedin.com/in/ananthu-s-in">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="mailto:ananthus952@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<br/><br/>
+
+**"Great things are built one line of code at a time."**
+
+<br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5CC,50:14213D,100:090A0F&height=130&section=footer"/>
 
 </div>
