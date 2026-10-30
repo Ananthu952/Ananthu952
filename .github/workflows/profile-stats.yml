@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-github-profile
+  cancel-in-progress: false
+
 jobs:
   update-profile:
     runs-on: ubuntu-latest
@@ -20,8 +24,9 @@ jobs:
         uses: actions/checkout@v6
         with:
           persist-credentials: true
+          fetch-depth: 0
 
-      # 2. Create folders
+      # 2. Create output folder
       - name: Create output folders
         run: mkdir -p profile
 
@@ -50,7 +55,7 @@ jobs:
           test -s profile/top-langs.svg
           echo "GitHub statistics generated successfully!"
 
-      # 6. Commit statistics
+      # 6. Commit and safely push statistics
       - name: Commit GitHub Stats
         run: |
           git config user.name "github-actions[bot]"
@@ -64,9 +69,16 @@ jobs:
             echo "Statistics are already up to date."
           fi
 
+          # Synchronize with remote before pushing
+          git pull --rebase origin main
+
           git push origin HEAD:main
 
-      # 7. Generate Puzzle Bobble
+      # 7. Remove old generated files
+      - name: Clean previous game files
+        run: rm -rf dist
+
+      # 8. Generate Puzzle Bobble
       - name: Generate Puzzle Bobble
         uses: abozanona/pacman-contribution-graph@main
         with:
@@ -75,7 +87,7 @@ jobs:
           games: 'puzzle-bobble'
           hide_month_labels: 'false'
 
-      # 8. Verify Puzzle Bobble
+      # 9. Verify Puzzle Bobble
       - name: Verify Puzzle Bobble
         run: |
           echo "Generated SVG files:"
@@ -86,7 +98,7 @@ jobs:
 
           echo "Puzzle Bobble files verified!"
 
-      # 9. Publish game to output branch
+      # 10. Publish game to output branch
       - name: Publish Puzzle Bobble
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
