@@ -173,7 +173,14 @@ A web application for scrap collection, pickup scheduling, price listing, wallet
 ## ◈ 04 — GitHub Statistics
 
 <div align="center">
+<img src="https://ghstats.dev/api/card?username=Ananthu952&theme=midnight&bg=090A0F&text=FFFFFF&title_color=00E5CC&icon_color=00BFA6&border_color=00BFA6&show_icons=true" width="85%" alt="Ananthu GitHub Statistics"/>
 
+<br/><br/>
+<a href="https://github.com/Ananthu952">
+<img src="https://img.shields.io/badge/Explore%20My%20Repositories-00BFA6?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</div>
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Ananthu952&show_icons=true&hide_border=true&bg_color=090A0F&title_color=00E5CC&icon_color=00BFA6&text_color=FFFFFF&ring_color=00E5CC"/>
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ananthu952&layout=compact&hide_border=true&bg_color=090A0F&title_color=00E5CC&text_color=FFFFFF"/>
