@@ -1,4 +1,5 @@
- <div align="center">
+
+<div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:090A0F,35:14213D,70:00BFA6,100:00E5FF&height=230&section=header&text=ANANTHU%20S&fontSize=72&fontColor=FFFFFF&fontAlignY=38&desc=FULL%20STACK%20DEVELOPER%20%7C%20PYTHON%20DEVELOPER&descSize=16&descAlignY=58&animation=twinkling"/>
 
@@ -125,7 +126,7 @@ A full-stack platform connecting customers with service providers for home maint
 
 **Intelligent PDF Question Answering**
 
-A document-based search application that answers natural-language questions using uploaded PDF documents and source references.
+A RAG-based application that allows users to upload PDF documents, ask natural-language questions and receive document-grounded answers with source references.
 
 `Python` `FastAPI` `FAISS` `LangChain`
 
@@ -139,15 +140,15 @@ A document-based search application that answers natural-language questions usin
 <tr>
 <td width="50%" valign="top">
 
-### ⚙️ Self-Healing CI/CD Agent
+### 🫁 LungXAI
 
-**Automated Failure Detection**
+**Explainable AI for Lung Disease Detection**
 
-A system designed to detect runtime failures, analyze application logs and assist in automated recovery and deployment.
+An AI-powered clinical decision-support platform that analyzes chest X-ray images, predicts possible lung diseases with confidence scores and generates Grad-CAM heatmaps to visually explain model predictions.
 
-`Python` `FastAPI` `Scikit-learn` `GitHub Actions`
+`Python` `FastAPI` `TensorFlow` `CNN` `Grad-CAM`
 
-<a href="https://github.com/Ananthu952">
+<a href="YOUR_LUNGXAI_REPOSITORY_URL">
 <img src="https://img.shields.io/badge/EXPLORE_PROJECT-00BFA6?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
@@ -172,9 +173,6 @@ A web application for scrap collection, pickup scheduling, price listing, wallet
 
 ---
 
-
----
-
 ## ◈ 04 — GitHub Statistics
 
 <div align="center">
@@ -191,22 +189,16 @@ A web application for scrap collection, pickup scheduling, price listing, wallet
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/Ananthu952/Ananthu952/output/puzzle-bobble-contribution-graph-dark.svg">
-
-  <source media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/Ananthu952/Ananthu952/output/puzzle-bobble-contribution-graph.svg">
-
-  <img
+<img
   src="https://raw.githubusercontent.com/Ananthu952/Ananthu952/output/puzzle-bobble-contribution-graph-dark.svg"
   width="100%"
   alt="Puzzle Bobble Contribution Game"
 />
 
-</picture>
-
 </div>
+
+---
+
 ## ◈ 06 — Beyond The Code
 
 <div align="center">
@@ -215,6 +207,7 @@ A web application for scrap collection, pickup scheduling, price listing, wallet
 |:---|:---|
 | Full Stack Development | Build production-ready applications |
 | Backend Engineering | Design reliable APIs and services |
+| Explainable AI | Build transparent AI-powered applications |
 | Problem Solving | Improve programming fundamentals |
 | Open Source | Learn and contribute to developer communities |
 
