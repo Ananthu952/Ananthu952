@@ -15,14 +15,17 @@ jobs:
     timeout-minutes: 20
 
     steps:
+      # 1. Checkout repository
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           persist-credentials: true
 
+      # 2. Create folders
       - name: Create output folders
         run: mkdir -p profile
 
+      # 3. Generate GitHub Stats
       - name: Generate GitHub Stats
         uses: stats-organization/github-readme-stats-action@v2
         with:
@@ -31,6 +34,7 @@ jobs:
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # 4. Generate Top Languages
       - name: Generate Top Languages
         uses: stats-organization/github-readme-stats-action@v2
         with:
@@ -39,13 +43,50 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # 5. Verify statistics
+      - name: Verify Statistics
+        run: |
+          test -s profile/stats.svg
+          test -s profile/top-langs.svg
+          echo "GitHub statistics generated successfully!"
+
+      # 6. Commit statistics
+      - name: Commit GitHub Stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/stats.svg profile/top-langs.svg
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update GitHub profile statistics"
+          else
+            echo "Statistics are already up to date."
+          fi
+
+          git push origin HEAD:main
+
+      # 7. Generate Puzzle Bobble
       - name: Generate Puzzle Bobble
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: Ananthu952
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           games: 'puzzle-bobble'
           hide_month_labels: 'false'
 
+      # 8. Verify Puzzle Bobble
+      - name: Verify Puzzle Bobble
+        run: |
+          echo "Generated SVG files:"
+          find dist -maxdepth 1 -type f -name "*.svg" -print
+
+          test -s dist/puzzle-bobble-contribution-graph.svg
+          test -s dist/puzzle-bobble-contribution-graph-dark.svg
+
+          echo "Puzzle Bobble files verified!"
+
+      # 9. Publish game to output branch
       - name: Publish Puzzle Bobble
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
@@ -53,11 +94,3 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Commit GitHub Stats
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
-          git diff --cached --quiet || git commit -m "Update GitHub profile statistics"
-          git push origin main
