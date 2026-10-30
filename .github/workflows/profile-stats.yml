@@ -12,13 +12,16 @@ permissions:
 jobs:
   update-profile:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Create output folders
-        run: mkdir -p profile dist
+        run: mkdir -p profile
 
       - name: Generate GitHub Stats
         uses: stats-organization/github-readme-stats-action@v2
@@ -36,17 +39,25 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate Contribution Snake
-        uses: Platane/snk@v3
+      - name: Generate Puzzle Bobble
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: Ananthu952
-          outputs: |
-            dist/github-snake.svg?palette=github-dark&color_snake=cyan
+          games: 'puzzle-bobble'
+          hide_month_labels: 'false'
 
-      - name: Commit generated images
+      - name: Publish Puzzle Bobble
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit GitHub Stats
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg dist/*.svg
+          git add profile/*.svg
           git diff --cached --quiet || git commit -m "Update GitHub profile statistics"
-          git push
+          git push origin main
