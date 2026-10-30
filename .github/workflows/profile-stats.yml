@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-github-profile
+  group: profile-update
   cancel-in-progress: false
 
 jobs:
@@ -19,14 +19,14 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      # 1. Checkout repository
+      # 1. Checkout
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
           persist-credentials: true
           fetch-depth: 0
 
-      # 2. Create output folder
+      # 2. Create profile directory
       - name: Create output folders
         run: mkdir -p profile
 
@@ -53,26 +53,30 @@ jobs:
         run: |
           test -s profile/stats.svg
           test -s profile/top-langs.svg
-          echo "GitHub statistics generated successfully!"
+          echo "Statistics generated successfully!"
 
-      # 6. Commit and safely push statistics
+      # 6. Commit and push statistics
       - name: Commit GitHub Stats
-  run: |
-    git config user.name "github-actions[bot]"
-    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        shell: bash
+        run: |
+          set -e
 
-    git add profile/stats.svg profile/top-langs.svg
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-    if ! git diff --cached --quiet; then
-      git commit -m "Update GitHub profile statistics"
-    else
-      echo "No changes to commit."
-    fi
+          git add profile/stats.svg profile/top-langs.svg
 
-    git pull --rebase origin main
-    git push origin HEAD:main
+          if ! git diff --cached --quiet; then
+            git commit -m "Update GitHub profile statistics"
+          else
+            echo "No statistics changes."
+          fi
 
-      # 7. Remove old generated files
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
+
+      # 7. Clean previous game output
       - name: Clean previous game files
         run: rm -rf dist
 
@@ -87,6 +91,7 @@ jobs:
 
       # 9. Verify Puzzle Bobble
       - name: Verify Puzzle Bobble
+        shell: bash
         run: |
           echo "Generated SVG files:"
           find dist -maxdepth 1 -type f -name "*.svg" -print
@@ -96,7 +101,7 @@ jobs:
 
           echo "Puzzle Bobble files verified!"
 
-      # 10. Publish game to output branch
+      # 10. Publish Puzzle Bobble
       - name: Publish Puzzle Bobble
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
