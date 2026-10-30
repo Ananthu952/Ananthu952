@@ -199,9 +199,11 @@ A web application for scrap collection, pickup scheduling, price listing, wallet
     srcset="https://raw.githubusercontent.com/Ananthu952/Ananthu952/output/puzzle-bobble-contribution-graph.svg">
 
   <img
-    src="https://raw.githubusercontent.com/Ananthu952/Ananthu952/output/puzzle-bobble-contribution-graph.svg"
-    width="100%"
-    alt="Puzzle Bobble Contribution Game">
+  src="https://raw.githubusercontent.com/Ananthu952/Ananthu952/output/puzzle-bobble-contribution-graph-dark.svg"
+  width="100%"
+  alt="Puzzle Bobble Contribution Game"
+/>
+
 </picture>
 
 </div>
